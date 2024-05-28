@@ -21,7 +21,7 @@ $(document).ready(function(){
     // Add scroll animation
     $(window).on('scroll', function() {
         $('.fade-in-up, .fade-in-right, .fade-in-left, .scale-up').each(function() {
-            if ($(this).offset().top < $(window).scrollTop() + $(window).height() - 200) {
+            if ($(this).offset().top < $(window).scrollTop() + $(window).height() - 240) {
                 $(this).addClass('visible');
             }
         });
