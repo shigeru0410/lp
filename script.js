@@ -26,7 +26,7 @@ $(document).ready(function(){
             }
         });
         $('.rotateY-target').each(function() {
-            if ($(this).offset().top < $(window).scrollTop() + $(window).height() - 50) {
+            if ($(this).offset().top < $(window).scrollTop() + $(window).height() - 100) {
                 $(this).addClass('rotateY');
             }
         });
